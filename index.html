@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+
+    <label name="questionTitle" id=""> Questions </label>
+    <p id="currentQuestion" >What is two times two ?</p>
+    <!-- <script>
+        const questionObj = {
+    question: 'What is two times two ?',
+    answer: [
+        2,3,4,5
+    ],
+    correctAnswer: 3 
+}
+    </script> -->
+    <div id="listAnswers">
+        <!-- same name group them together  -->
+        <input name="radio-button" type="radio" value="3">3</input>
+        <input name="radio-button" type="radio" value="1">1</input>
+        <input name="radio-button" type="radio" value="4">4</input>
+        <input name="radio-button" type="radio" value="6">6</input>
+    </div>
+
+    <p id="feedback"></p>
+
+    <br>
+    <input id="answer">
+    
+</body>
+</html>
